@@ -1,4 +1,12 @@
 ///Jonathan Code
+console.log("Hello World")
+
+const sum = (a,b) => {
+    return a + b
+}
+
+// just a console log for ourselves.
+console.log(7,3)
 
 let oneEuroIs = {
     "JPY": 127.9, // japan yen
@@ -21,4 +29,4 @@ function fromYanToPound(total) {
     return x;
 }
 
-module.exports = { fromDollarToYen, fromEuroToDollar, fromYanToPound }
+module.exports = { sum, fromDollarToYen, fromEuroToDollar, fromYanToPound }
